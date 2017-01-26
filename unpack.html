@@ -1,0 +1,23 @@
+﻿<html>
+	<head>
+		<title>Unpack</title>
+		<meta charset="UTF-8" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.6.8/beautify.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.6.8/beautify-css.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.6.8/beautify-html.min.js"></script>
+		<script type="text/javascript" src="jszip.min.js"></script>
+		<script type="text/javascript" src="unpack.js"></script>
+	</head>
+	<body>
+		<center>
+		<h1>CrossCode Unpacker</h1>
+		<input id="file" type="file" value="Unpack" onchange="unpack()"/>
+		<br>
+		<input id="a" type="button" value="Save all" onclick="saveAll()" disabled/>
+		<input id="b" type="button" value="Save data" onclick="saveD()" disabled/>
+		<input id="c" type="button" value="Save media" onclick="saveMedia()" disabled/>
+		<input id="d" type="button" value="Save js" onclick="saveJs()" disabled/>
+		<input id="e" type="button" value="Save js (beautified)" onclick="saveJsPretty()" disabled/>
+		</center>
+	</body>
+</html>
